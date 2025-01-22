@@ -20,6 +20,8 @@
                         marrom_white_02: '#C7794A',
                         marrom_white_03: '#CF9A5A',
                         bright_color: '#FDF5E3',
+                        amarelo: '#F7AE1A',
+
                     }
                 }
             }
@@ -27,10 +29,11 @@
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <style>
-        *{
-            font-family: archivo;
+        * {
+            font-family: archivo, serif;
         }
     </style>
 </head>
@@ -39,7 +42,7 @@
     <main>
         <header class="bg-marrom_black_01 h-[110px]">
             <nav class="py-[31px] flex items-center gap-[55px]">
-                <img src="IMG/Logo_Tiamate.png" alt="Logo Tiamate" class="ml-[135px]">
+                <img src="IMG_inicio/Logo_Tiamate.png" alt="Logo Tiamate" class="ml-[135px]">
                 <ul class="flex gap-[45px]">
                     <l1><a href="" class="text-marrom_white_01">Início</a></l1>
                     <l1><a href="" class="text-marrom_white_01">Nosso Café</a></l1>
@@ -47,28 +50,407 @@
                     <l1><a href="" class="text-marrom_white_01">Contataro</a></l1>
                     <l1><a href="" class="text-marrom_white_01">Cardápio</a></l1>
                 </ul>
-                <button><a href="" class="bg-marrom_white_02 px-[23px] py-[16px] rounded-[5px] w-[220px] h-[52px] ml-[165px]">Seja um Franqueado</a></button>
+                <button><a href=""
+                        class="bg-marrom_white_02 px-[23px] py-[16px] rounded-[5px] w-[220px] h-[52px] ml-[165px]">Seja
+                        um Franqueado</a></button>
             </nav>
         </header>
-        <section>
-            <img src="IMG/banner tela inicial.png" alt="" class="h-[490px]">
-            <nav>
-                <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </ul>
-                <box-icon name='facebook-circle' type='logo' ></box-icon>
+        <section id="banner" class="relative">
+            <img src="IMG_inicio/banner tela inicial.png" alt="" class="w-full h-[500px] bg-marrom_black_02">
+            <div class="absolute top-[110px] left-[135px]">
+                <h2 class="text-marrom_white_01 text-[55px] font-bold leading-[65px]"><span class="text-[#F7AE1A]">Um
+                        café quentinho</span><br> aqui na Tiamate<br>
+                    muda o dia.</h2>
+                <div class="flex gap-4">
+                    <a href="" class="w-[34px] h-[34px] bg-black block rounded-full"></a>
+                    <a href="" class="w-[34px] h-[34px] bg-black block rounded-full"></a>
+                    <a href="" class="w-[34px] h-[34px] bg-black block rounded-full"></a>
+                    <a href="" class="w-[34px] h-[34px] bg-black block rounded-full"></a>
+                </div>
+            </div>
+        </section>
+        <section id="ben-vindo" class="bg-marrom_white_00 flex">
+            <img src="IMG_inicio/banner_2 _ben-vindo.png" alt="Ben-vindo">
+            <nav class="pt-[135px] pl-9">
+                <p class="mb-[10px] text-marrom_black_02 mr-[387px] text-[18px]">Para os amantes de café</p>
+                <h2 class="mb-[30px] text-marrom_medium_01 font-bold text-[50px] mr-[272px] leading-[55px]">Bem-vindo a
+                    Tiamte Coffee</h2>
+                <p class="mr-[135px] text-marrom_black_02 text-[16px] tracking-wide w-[468px] h-[266px]"><span>Tiamate
+                        Coffee traduz de
+                        maneira clara e objetiva o verdadeiro sabor do café e o seu espírito inovador. Visamos fazer
+                        parte da vida das pessoas e diferentes culturas, isso é o que nos motiva
+                        a oferecer o café mais gostoso. Por isso, selecionamos as melhores plantações, os grãos, os
+                        blends e as pessoas que
+                        vão colocar a mão na massa para fazer esse delicioso café. <br><br> Pensamos em fazer os seus
+                        momentos mais felizes, seja no café da manhã ou em uma reunião. Individualmente ou entre amigos.
+                        À Tiamate Coffee investe em um conceito atual que transmite
+                        as pessoas uma sensação de bem estar. Enquanto nosso café aproxima as pessoas, nossos serviços
+                        de Wifi gratuito as mantém conectadas. Descubra como navegar na internet enquanto você saboreia
+                        um Tiamate.</span></p>
             </nav>
         </section>
-        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-        <section id="banner"></section>
-        <section id="bem-vindo"></section>
-        <section id="banner2"></section>
-        <section id="cardapio"></section>
-        <section id="contato"></section>
+        <section id="cultura" class="flex gap-[33px] mb-[144px]">
+            <div class=" mt-[163px] ml-[135px]">
+                <div class="flex justify-items-center items-center gap-4">
+                    <img src="IMG_inicio/imagem_cultura_1.png" alt="" class="">
+                    <p class="text-[24px] text-marrom_medium_01 font-bold">Missão</p>
+                </div>
+                <p class="text-[16px] text-marrom_black_02 w-[284px] h-[95px] mt-[19px] leading-[20px]"><span>Fornecer
+                        soluções, produtos e serviços
+                        de maneira clara e objetiva construindo relacionamentos duradouros com a comunidade, parceiros,
+                        colaboradores
+                        e sócios, através da criação de valores.</span></p>
+            </div>
+            <div class=" mt-[163px] ml-[135px]">
+                <div class="flex justify-items-center items-center gap-4">
+                    <img src="IMG_inicio/imagem_cultura_2.png" alt="" class="">
+                    <p class="text-[24px] text-marrom_medium_01 font-bold">Visão</p>
+                </div>
+                <p class="text-[16px] text-marrom_black_02 w-[284px] h-[95px] mt-[19px] leading-[20px]"><span>Ser
+                        referência em inovação e estimular exponencialmente a nossa gestão de maneira diversificada,
+                        próspera e justa. Com devoção e disciplina em todas as nossas operações de negócio.</span></p>
+            </div>
+            <div class=" mt-[163px] ml-[135px]">
+                <div class="flex justify-items-center items-center gap-4">
+                    <img src="IMG_inicio/imagem_cultura_3.png" alt="" class="">
+                    <p class="text-[24px] text-marrom_medium_01 font-bold">Valores</p>
+                </div>
+                <p class="text-[16px] text-marrom_black_02 w-[284px] h-[95px] mt-[19px] leading-[20px]"><span>Amor ao
+                        Trabalho - Organização - Disciplina - Inovação - Busca Contínua Pela Qualidade - Foco no Cliente
+                    </span></p>
+            </div>
+        </section>
+        <section id="video">
+            <h2 class="text-[50px] text-marrom_medium_01 font-bold ml-[135px] leading-[55px]"><span>Coisas boas
+                    acontecem àqueles <br>
+                    que gostam de café</span></h2>
+            <iframe class="w-[1168px] h-[600px] mx-[135px] mt-[83px] mb-[134px]"
+                src="https://www.youtube.com/embed/RWCP7z8ufiA?si=R2A3M313wkQaDSq_" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section id="banner_2" class="relative">
+            <img src="IMG_inicio/banner_2.png" alt="" class="w-full h-[500px]">
+            <h2 class="text-[50px] text-marrom_white_01 absolute top-[171px] left-[134px] leading-[55px]"><span
+                    class="text-[55px] text-marrom_white_02 font-bold">Café Autêntico</span><br>Chegou nosso café!<br>
+                Direto da fazenda.</h2>
+        </section>
+        <section id="instagram" class="px-[135px] py-[100px] mt-[69px] relative">
+            <p class="text-[18px] text-marrom_black_02 mb-[13px]">Para você e seus amigos</p>
+            <h2 class="text-[50px] text-marrom_medium_01 font-bold mb-[58px]">Ambiente agradável</h2>
+            <div class="grid grid-cols-3 gap-0 *:h-[390px] *:w-[390px] *:bg-black">
+                <div><img src="IMG_inicio/imagem_insta_1.png" alt=""></div>
+                <div><img src="IMG_inicio/imagem_insta_2.png" alt=""></div>
+                <div><img src="IMG_inicio/imagem_insta_3.png" alt=""></div>
+                <div><img src="IMG_inicio/imagem_insta_4.png" alt=""></div>
+                <div><img src="IMG_inicio/imagem_insta_5.png" alt=""></div>
+                <div><img src="IMG_inicio/imagem_insta_6.png" alt=""></div>
+            </div>
+            <div class="w-full h-[200px] bg-marrom_white_01 absolute bottom-0 left-0 -z-10"></div>
+        </section>
+        <section id="cardapio" class="h-screen bg-marrom_white_01">
+            <div>
+                <p class="text-[18px] text-marrom_black_02 mx-[664px]">Confira nosso</p>
+                <h2 class="text-[50px] text-marrom_medium_01 mx-[610px] font-bold">Cardápio</h2>
+            </div>
+            <div class="flex gap-[20px] items-center mt-[77px]">
+                <img src="IMG_inicio/ceta_esqueda.png" alt="" class="ml-[300px] w-[29px] h-[24px]">
+                <img src="IMG_inicio/Bebidas_1.png" alt="" class="ml-[55px]">
+                <img src="IMG_inicio/Bebidas_2.png" alt="" class="">
+                <img src="IMG_inicio/Bebidas_3.png" alt="" class="">
+                <img src="IMG_inicio/cet_direita.png" alt="" class="">
+            </div>
+            <div class="justify-center items-center ml-[560px] mt-[72px]">
+                <button class="w-[304px] h-[60px] bg-marrom_white_03 font-bold rounded-[5px]">Ver
+                    mais</button>
+            </div>
+        </section>
+        <section id="contato" class="flex">
+            <div class="flex-1 bg-marrom_black_02 p-4 md:pl-[135px] md:pt-[70px] md:pr-[70px]">
+                <h6 class="text-marrom_white_03 text-[18px]">Entre em contato</h6>
+                <h2 class="text-marrom_white_01 text-[50px] font-bold mb-[20px]">Abra sua Franquia</h2>
+                <p class="text-marrom_white_03">Preencha o formulário abaixo que entraremos em contato com você o mais
+                    rápido
+                    possível.</p>
+                <form class="mt-[20px]">
+                    <div class="bg-marrom_white_01 rounded-md px-[9px] py-[14px] flex gap-[9px] mb-[10px]">
+                        <div class="bg-marrom_white_02 w-[32px] h-[32px] flex justify-center items-center rounded-full">
+                            <img src="IMG_inicio/nome.png" alt="nome">
+                        </div>
+                        <input type="text" placeholder="Nome e Sobrenome"
+                            class="flex-1 bg-transparent outline-none placeholder:text-marrom_black_01">
+                    </div>
+                    <div class="bg-marrom_white_01 rounded-md px-[9px] py-[14px] flex gap-[9px] mb-[10px]">
+                        <div class="bg-marrom_white_02 w-[32px] h-[32px] flex justify-center items-center rounded-full">
+                            <img src="IMG_inicio/e-mail.png" alt="nome">
+                        </div>
+                        <input type="email" placeholder="email@exemplo.com"
+                            class="flex-1 bg-transparent outline-none placeholder:text-marrom_black_01">
+                    </div>
+                    <div class="bg-marrom_white_01 rounded-md px-[9px] py-[14px] flex gap-[9px] mb-[10px]">
+                        <div class="bg-marrom_white_02 w-[32px] h-[32px] flex justify-center items-center rounded-full">
+                            <img src="IMG_inicio/telefone.png" alt="nome">
+                        </div>
+                        <input id="telefone" type="text" placeholder="(00) 00000-0000"
+                            class="flex-1 bg-transparent outline-none placeholder:text-marrom_black_01">
+                    </div>
+                    <div class="flex gap-[10px]">
+                        <div class="flex-1 bg-marrom_white_01 rounded-md px-[9px] py-[14px] flex gap-[9px] mb-[10px]">
+                            <div
+                                class="bg-marrom_white_02 w-[32px] h-[32px] flex justify-center items-center rounded-full">
+                                <img src="IMG_inicio/UF.png" alt="nome">
+                            </div>
+                            <select id="lista_estados"
+                                class="flex-1 bg-transparent outline-none placeholder:text-marrom_black_01"
+                                onchange="carregarCidades()">
+                                <option disabled selected>UF</option>
+                            </select>
+                        </div>
+                        <div class="flex-1 bg-marrom_white_01 rounded-md px-[9px] py-[14px] flex gap-[9px] mb-[10px]">
+                            <div
+                                class="bg-marrom_white_02 w-[32px] h-[32px] flex justify-center items-center rounded-full">
+                                <img src="IMG_inicio/cidade.png" alt="nome">
+                            </div>
+                            <!-- <select id="lista_cidades" class="flex-1 bg-transparent outline-none placeholder:text-marrom_black_01">
+                      <option disabled selected>Cidade</option>
+                    </select> -->
+                            <input list="lista_cidades" type="text" placeholder="Cidade"
+                                class="flex-1 bg-transparent outline-none placeholder:text-marrom_black_01">
+                            <datalist id="lista_cidades"></datalist>
+                        </div>
+                    </div>
+                    <div class="bg-marrom_white_01 rounded-md px-[9px] py-[14px] flex gap-[9px] mb-[10px]">
+                        <div class="bg-marrom_white_02 w-[32px] h-[32px] flex justify-center items-center rounded-full">
+                            <img src="IMG_inicio/como conheceu tiamate.png" alt="nome">
+                        </div>
+                        <select class="flex-1 bg-transparent outline-none placeholder:text-marrom_black_01">
+                            <option disabled selected>Como conheceu a Tiamate?</option>
+                            <option>Facebook</option>
+                            <option>Instagram</option>
+                            <option>Linkedin</option>
+                            <option>Google</option>
+                            <option>Outros</option>
+                        </select>
+                    </div>
+                    <button
+                        class="w-full bg-marrom_white_02 hover:bg-marrom_medium_01 text-marrom_black_02 duration-200 px-[9px] py-[14px] rounded-md font-semibold">Enviar
+                        Cadastro</button>
+                </form>
+            </div>
+            <img src="IMG_inicio/cadastro_inicio.png" alt="fachada tiamate" class="hidden md:block">
+        </section>
+        <section id="depoimentos" class="pt-[130px] pb-[132px]">
+            <h6 class="text-marrom_black_01 text-[18px] text-center">Depoimentos</h6>
+            <h2 class="text-marrom_medium_01 text-[50px] font-bold text-center mb-[40px]">Tudo sobre Tiamate Coffee</h2>
+            <div class="relative">
+                <img src="IMG_inicio/depoimento.png" alt="atendente entregando café">
+                <div class="w-9/12 absolute top-1/2 right-0 -translate-y-1/2 overflow-hidden">
+                    <div id="cards" class="w-[2610px] flex gap-[42px] relative left-0 duration-200">
+                        <div class="w-[400px] pt-[58px] px-[37px] pb-[32px] bg-marrom_white_00 rounded-[7px]">
+                            <div class="flex gap-1 mb-[15px]">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                            </div>
+                            <p class="text-marrom_black_02">O café é realmente bom, e os salgados também (pedi um
+                                croissant de 4
+                                queijos). Já havia pedido antes via iFood mas resolvi fazer uma visita enquanto andava
+                                pelo Centro, o
+                                café fica mesmo ao lado da Praça do Ferreira. Vale a pena dar uma visitada quando quiser
+                                se refrescar
+                                com um café gelado deles ou tomar um café da manhã por lá.</p>
+                            <div class="flex gap-4 items-center mt-3">
+                                <img src="IMG_inicio/Isac_Moura.png" alt="Kalil Sousa">
+                                <h6 class="text-marrom_medium_02 font-semibold">Isac Moura</h6>
+                            </div>
+                        </div>
+                        <div class="w-[400px] pt-[58px] px-[37px] pb-[32px] bg-marrom_white_00 rounded-[7px]">
+                            <div class="flex gap-1 mb-[15px]">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                            </div>
+                            <p class="text-marrom_black_02">Excelente café no Centro da cidade.
+                                Vale a pena uma passará para quem
+                                estiver passando pela região.</p>
+                            <div class="flex gap-4 items-center mt-3">
+                                <img src="IMG_inicio/Eleonora_Pereira.png" alt="Kalil Sousa">
+                                <h6 class="text-marrom_medium_02 font-semibold">Eleonora Pereira</h6>
+                            </div>
+                        </div>
+                        <div class="w-[400px] pt-[58px] px-[37px] pb-[32px] bg-marrom_white_00 rounded-[7px]">
+                            <div class="flex gap-1 mb-[15px]">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star_metade_cor.png" alt="">
+                                <img src="IMG_inicio/str_metade_sem.png" alt="" class="">
+                            </div>
+                            <p class="text-marrom_black_02">Ótimo lugar para descansar tomando aquele café, cappuccino,
+                                matte, tiamatte...😍 meu refúgio de descanso em meio ao turbulento centro
+                                de Fortal City! rs</p>
+                            <div class="flex gap-4 items-center mt-3">
+                                <img src="IMG_inicio/Alkaline_Fernandes.png" alt="Kalil Sousa">
+                                <h6 class="text-marrom_medium_02 font-semibold">Alkaline Fernandes</h6>
+                            </div>
+                        </div>
+                        <div class="w-[400px] pt-[58px] px-[37px] pb-[32px] bg-marrom_white_00 rounded-[7px]">
+                            <div class="flex gap-1 mb-[15px]">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                            </div>
+                            <p class="text-marrom_black_02">Ambiente agradável, limpo, bem arrumado e com ótimas opções
+                                de lanche. Mesas organizadas, decoração bonita, atendimento rápido 😍😍😍</p>
+                            <div class="flex gap-4 items-center mt-3">
+                                <img src="IMG_inicio/Rochelly_Beviláqua.png" alt="Kalil Sousa">
+                                <h6 class="text-marrom_medium_02 font-semibold">Rochelly Beviláqua</h6>
+                            </div>
+                        </div>
+                        <div class="w-[400px] pt-[58px] px-[37px] pb-[32px] bg-marrom_white_00 rounded-[7px]">
+                            <div class="flex gap-1 mb-[15px]">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                            </div>
+                            <p class="text-marrom_black_02">Ambiente agradável e uma boa variedade de sabores e
+                                apresentações de café. Também os bolos e tortas merecem atenção por combinar muito bem
+                                com as bebidas quentes disponíveis na casa. A localização estratégica - bem perto da
+                                Praça do Ferreira - permite fácil acesso a pé para quem está no Centro de Fortaleza.</p>
+                            <div class="flex gap-4 items-center mt-3">
+                                <img src="IMG_inicio/Manoel_Costa.png" alt="Kalil Sousa">
+                                <h6 class="text-marrom_medium_02 font-semibold">Manoel Costa</h6>
+                            </div>
+                        </div>
+                        <div class="w-[400px] pt-[58px] px-[37px] pb-[32px] bg-marrom_white_00 rounded-[7px]">
+                            <div class="flex gap-1 mb-[15px]">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                                <img src="IMG_inicio/star.png" alt="">
+                            </div>
+                            <p class="text-marrom_black_02">Melhor local para tomar café no coração de Fortaleza,
+                                ambiente bem climatizado e ótimos atendentes, passo horas por lá sempre quando dá.Super
+                                indico ❤️❤️ aos amantes de café
+                                com estilo.</p>
+                            <div class="flex gap-4 items-center mt-3">
+                                <img src="IMG_inicio/Nágela_Marques.png" alt="Kalil Sousa">
+                                <h6 class="text-marrom_medium_02 font-semibold">Nágela Marques</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-end gap-4 pr-[135px]">
+                <div id="anterior" onclick="anteriorDepoimento()"
+                    class="w-[50px] h-[50px] bg-marrom_white_03 hover:bg-marrom_black_02 text-marrom_black_01 flex justify-center items-center rounded-full">
+                    A</div>
+                <div id="proximo" onclick="proximoDepoimento()"
+                    class="w-[50px] h-[50px] bg-marrom_white_03 hover:bg-marrom_black_02 text-marrom_black_01 flex justify-center items-center rounded-full">
+                    P</div>
+            </div>
+        </section>
+        <footer class=" bg-marrom_black_01 text-white rounded h-[319px] top-[6511px] ">
+            <div class="  p-10 md:py-8 mx-8">
+                <div class="flex items-center justify-between ">
+                    <a href="">
+                        <img src="IMG_inicio/Logo_Tiamate.png" alt="">
+                        <span></span>
+                    </a>
+                    <ul class="flex flex-wrap items-center lg: gap-[65px]">
+                        <li><a href="" class="hover:underline">Início</a></li>
+                        <li><a href="" class="hover:underline">Nosso café</a></li>
+                        <li><a href="" class="hover:underline">Notícias</a></li>
+                        <li><a href="" class="hover:underline">Contato</a></li>
+                        <li><a href="" class="hover:underline">Cardápio</a></li>
+                        <li><a href="" class="hover:underline">Franquias</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="my-8 border-marrom_medium_01 mx-[75px] ">
+
+            <div class="flex items-center justify-between  ">
+
+                <div class="p-0 mb-10 ml-[76px]">
+                    <span>Curta e compartilhe</span>
+                </div>
+
+                <div class="flex items-center justify-between gap-6 p-10 mb-10  mr-[18px]">
+                    <span><img src="IMG_inicio/Facebook.png" alt=""></span>
+                    <span><img src="IMG_inicio/Instagram.png" alt=""></span>
+                    <span><img src="IMG_inicio/Youtube.png" alt=""></span>
+                    <span><img src="IMG_inicio/Linkend.png" alt=""></span>
+                </div>
+
+                <div class="p-10 mb-10 ml-[220px]">
+                    <span class="text-marrom_medium_01"> © 2025 - Tiamate Todos os direitos reservados</span>
+                </div>
+
+                <div class="p-10 mr-[35px] mb-10">
+                    <span><img src="IMG_inicio/logo_Gracom.png" alt=""></span>
+                </div>
+
+            </div>
+
+        </footer>
     </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script>
+        // Mascara do telefone, pra forçar a digitação correta
+        $('#telefone').mask('(00) 00000-0000');
+
+        // Requisição para buscar os estados
+
+        fetch("https://servicodados.ibge.gov.br/api/v1/localidades/estados?orderBy=nome")
+            .then(res => res.json())
+            .then(estados => {
+                estados.map(estado => {
+                    lista_estados.innerHTML += `<option value="${estado.id}">${estado.nome}</option>`
+                })
+            })
+
+        function carregarCidades() {
+            fetch(`https://servicodados.ibge.gov.br/api/v1/localidades/estados/${lista_estados.value}/municipios?orderBy=nome`)
+                .then(res => res.json())
+                .then(cidades => {
+                    lista_cidades.innerHTML = '';
+                    lista_cidades.innerHTML += '<option disabled selected>Cidade</option>';
+                    cidades.map(cidade => {
+                        lista_cidades.innerHTML += `<option>${cidade.nome}</option>`
+                    })
+                })
+        }
+
+        let prox = 1;
+        function proximoDepoimento() {
+            cards.style.left = `-${prox * 400}px`;
+            if (prox < 4) {
+                prox++;
+            }
+        }
+
+        let ante = 1;
+        function anteriorDepoimento() {
+            cards.style.right = `-${ante * 400}px`;
+            if (ante > 1) {
+                ante--;
+            }
+        }
+
+    </script>
 </body>
 
 </html>
